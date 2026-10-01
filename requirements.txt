@@ -1,0 +1,19 @@
+# Tested against livekit-agents 1.8.3 (Python 3.12). The code falls back to older kwargs where it can.
+livekit-agents>=1.3,<2
+livekit-plugins-deepgram
+livekit-plugins-google
+livekit-plugins-silero
+livekit-plugins-ai-coustics
+# Optional: better turn-taking. Enable with USE_TURN_DETECTOR=1, then run: python agent.py download-files
+livekit-plugins-turn-detector
+
+chromadb          # policy index (built by your build_index.py)
+python-dotenv
+
+# Web app
+streamlit
+pandas
+
+# Tests
+pytest
+pytest-asyncio
