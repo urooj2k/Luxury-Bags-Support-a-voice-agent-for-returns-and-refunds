@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/a8abcfbc-d06f-4312-a848-4d3fc9669276
 | 🖥️ | Streamlit | Web UI and dashboard |
 
 <details>
-<summary>💸 Previous pipeline (paid LiveKit Inference models)</summary>
+<summary>⭐ Previous pipeline (paid LLM models)</summary>
 
 Earlier versions used Deepgram Nova-3 (STT), Gemma 4 31B (LLM), Cartesia Sonic-3 (TTS), Inference VAD and turn detector, and ai-coustics Quail noise cancellation. These hosted models are paid, so the project moved to a single Gemini realtime model. The `deepgram` and `ai-coustics` entries in `requirements.txt` are only needed if you switch back.
 
